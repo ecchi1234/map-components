@@ -1,0 +1,25 @@
+@import 'src/styles/variables';
+.input-container {
+  width: 100%;
+  z-index: 9999;
+  margin: 0 !important;
+  border-radius: 0;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  i {
+    padding: 10px;
+    background: $red !important;
+    color: white;
+    min-width: 20px;
+    text-align: center;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    height: 100%;
+  }
+}
